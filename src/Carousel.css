@@ -1,0 +1,50 @@
+.carousel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Adjust width for more space */
+    pointer-events: none;
+}
+
+.carousel-button {
+    background: none;
+    border: none;
+    color: var(--main-color);
+    font-size: 3rem;
+    cursor: pointer;
+    pointer-events: auto;
+    user-select: none;
+    color: black;
+}
+
+.carousel-button:focus {
+    outline: none;
+}
+
+.carousel-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    pointer-events: auto;
+    padding: 0 50px; /* Add padding for more space */
+}
+
+.carousel-text {
+    font-size: 1.2rem;
+    color: var(--main-color);
+    width: 35%; /* Adjust width for more space */
+    margin: 0 20px;
+    color: #fff;
+}
+
+.left {
+    text-align: right;
+}
+
+.right {
+    text-align: left;
+}

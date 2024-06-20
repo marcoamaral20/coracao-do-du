@@ -22,7 +22,7 @@ const Model: React.FC<GroupProps> = (props) => {
           <mesh
             geometry={nodes.hartZBrush_defualt_group_Heart_Tex_0.geometry}
             material={materials.Heart_Tex}
-            scale={286.365}
+            scale={586.365}
           />
         </group>
       </group>
