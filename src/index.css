@@ -21,7 +21,7 @@ body {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 2rem;
     color: #7d1401;
     text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color);
     margin: 20px 0;
@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    height: 37vh;
 }
 
 .heart-canvas {

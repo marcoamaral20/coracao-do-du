@@ -41,6 +41,21 @@
   color: #888;
 }
 
+/* HeartInfo.css or App.css */
+.heart-info-container {
+  position: fixed; /* Position fixed to keep it at the bottom */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  width: 100%; /* Full width of the viewport */
+  background-color: #fff; /* Example background color */
+  padding: 20px; /* Example padding */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.heart-info {
+  text-align: center; /* Center align content */
+  margin-top: 250px;
+}
+
 .heart-pulse-button {
   background-color: #f44336; /* Red background color */
   color: white; /* White text color */
